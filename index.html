@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Spotify Flowers | Sarina Chen</title>
+
+	<meta property="og:title" content="Spotify Flowers">
+	<meta property="og:description" content="Spotify tracks visualized with audio data.">
+	<meta property="og:image" content="https://raw.githubusercontent.com/sarinac/spotify-flowers/main/app/static/img/spotify-flowers-cover.jpg">
+
+	<!-- CSS -->
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQC37FT3TK"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-YQC37FT3TK');
+	</script>
+</head>
+<body>
+	<!-- Content -->
+	<div id="content">
+		<h1>Spotify Flowers</h1>
+		<p>Music Visualization with Spotify by <a href="https://ifcolorful.com/">Sarina Chen</a> featuring one of my favorite Electro Swing albums: Robot Face by Caravan Palace. 
+			This is a static version of my work because I can no longer host my actual version for free. ¯\_(ツ)_/¯</p>
+
+		<p>
+			This display is my flower shop featuring the musical album <em>Robot Face</em>. 
+			I keep each song in a vase. 
+			These arrangements consists of flowers, with each bud representing a section in the music with its stem positioned in order of when the song plays.
+			The size of the flower corresponds to the loudness of the section.
+			Each petal is a musical bar, which progresses clockwise within each flower.
+			The colors in each petal represent different pitches moving from the center to the tips.
+		</p>
+
+		<div id="legend"></div>
+
+		<div class="content-box">
+			<div class="content-box-pair">
+				<!-- 01 - Lone Digger -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-01"></div>
+					<h2>01 Lone Digger</h2>
+					<p>✿ $3.50 ✿</p>
+					<p>Vase of 118 Petals across 11 Flowers</p>
+				</div>
+				<!-- 02 - Comics -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-02"></div>
+					<h2>02 Comics</h2>
+					<p>✿ $3.33 ✿</p>
+					<p>Vase of 78 Petals across 9 Flowers</p>
+				</div>
+			</div>
+
+			<div class="content-box-pair">
+				<!-- 03 - Mighty (feat. JFTH) -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-03"></div>
+					<h2>03 Mighty (feat. JFTH)</h2>
+					<p>✿ $3.22 ✿</p>
+					<p>Vase of 103 Petals across 9 Flowers</p>
+				</div>
+				<!-- 04 - Aftermath -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-04"></div>
+					<h2>04 Aftermath</h2>
+					<p>✿ $3.06 ✿</p>
+					<p>Vase of 107 Petals across 9 Flowers</p>
+				</div>
+			</div>
+
+			<div class="content-box-pair">
+				<!-- 05 - Wonderland -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-05"></div>
+					<h2>05 Wonderland</h2>
+					<p>✿ $3.11 ✿</p>
+					<p>Vase of 82 Petals across 9 Flowers</p>
+				</div>
+				<!-- 06 - Tattoos -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-06"></div>
+					<h2>06 Tattoos</h2>
+					<p>✿ $3.27 ✿</p>
+					<p>Vase of 103 Petals across 11 Flowers</p>
+				</div>
+			</div>
+
+			<div class="content-box-pair">
+				<!-- 07 - Midnight -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-07"></div>
+					<h2>07 Midnight</h2>
+					<p>✿ $3.26 ✿</p>
+					<p>Vase of 79 Petals across 8 Flowers</p>
+				</div>
+				<!-- 08 - Russian -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-08"></div>
+					<h2>08 Russian</h2>
+					<p>✿ $4.01 ✿</p>
+					<p>Vase of 123 Petals across 11 Flowers</p>
+				</div>
+			</div>
+
+			<div class="content-box-pair">
+				<!-- 09 - Wonda -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-09"></div>
+					<h2>09 Wonda</h2>
+					<p>✿ $3.44 ✿</p>
+					<p>Vase of 98 Petals across 8 Flowers</p>
+				</div>
+				<!-- 10 - Human Leather Shoes for Crocodile Dandies -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-10"></div>
+					<h2>10 Human Leather Shoes for Crocodile Dandies</h2>
+					<p>✿ $4.34 ✿</p>
+					<p>Vase of 138 Petals across 14 Flowers</p>
+				</div>
+			</div>
+
+			<div class="content-box-pair">
+				<!-- 11 - Lay Down -->
+				<div class="content-box-description">
+					<div class="content-svg-container" id="svg-11"></div>
+					<h2>11 Lay Down</h2>
+					<p>✿ $3.09 ✿</p>
+					<p>Vase of 183 Petals across 11 Flowers</p>
+				</div>
+			</div>
+		</div>
+
+		<br/><br/>
+		<h2 style="text-align: right;"><a href="https://ifcolorful.com/">See more work by Sarina Chen</a></h2>
+
+	</div>
+	<!-- Footer -->
+	<div id="footer">
+		<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+		<script> 
+			$(function(){$("#svg-01").load("svg/svg-01.html"); });
+			$(function(){$("#svg-02").load("svg/svg-02.html"); });
+			$(function(){$("#svg-03").load("svg/svg-03.html"); });
+			$(function(){$("#svg-04").load("svg/svg-04.html"); });
+			$(function(){$("#svg-05").load("svg/svg-05.html"); });
+			$(function(){$("#svg-06").load("svg/svg-06.html"); });
+			$(function(){$("#svg-07").load("svg/svg-07.html"); });
+			$(function(){$("#svg-08").load("svg/svg-08.html"); });
+			$(function(){$("#svg-09").load("svg/svg-09.html"); });
+			$(function(){$("#svg-10").load("svg/svg-10.html"); });
+			$(function(){$("#svg-11").load("svg/svg-11.html"); });
+			$(function(){$("#legend").load("svg/legend.html"); });
+		</script> 
+	</div>
+</body>
+</html>
